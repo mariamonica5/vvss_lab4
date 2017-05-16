@@ -58,7 +58,7 @@ public class LaboratoriesController {
         Map<String, List<Laboratory>> laboratoryMap = this.laboratoryPersistence.getLaboratoryMap();
         List<Student> studentsList = studentPersistence.getStudentsList();
 
-        List<Student> passedStudents = new ArrayList<>();
+        List<Student> passedStudents = new ArrayList<Student>();
         Entry<String, List<Laboratory>> entry;
 
         Set<Entry<String, List<Laboratory>>> entrySet = laboratoryMap.entrySet();
