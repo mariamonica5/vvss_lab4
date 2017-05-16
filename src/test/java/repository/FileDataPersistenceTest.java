@@ -112,7 +112,7 @@ public class FileDataPersistenceTest {
     @Test
     public void testGetStudentsList() throws Exception {
         List<Student> studenti= data.getStudentsList();
-        List<Student> studenti2= new ArrayList<>();;
+        List<Student> studenti2= new ArrayList<Student>();
         Student stud1= new Student("dfgh4563", "Costin", "Aurica", 300);
         Student stud2= new Student("oiuy3214", "Bala", "Dorel", 120);
         Student stud3= new Student("abcd1234", "Pop", "Viorica", 212);
