@@ -110,27 +110,26 @@ public class FileDataPersistenceTest {
 //
 //    }
 
-    @Test
-    public void testGetStudentsList()  {
-        List<Student> studenti= null;
-        try {
-            studenti = data.getStudentsList();
-           // System.out.println(studenti.size());
-            List<Student> studenti2= new ArrayList<Student>();
-            Student stud1= new Student("dfgh4563", "Costin", "Aurica", 300);
-            Student stud2= new Student("oiuy3214", "Bala", "Dorel", 120);
-            Student stud3= new Student("abcd1234", "Pop", "Viorica", 212);
-            Student stud4= new Student ("fghs5679", "Pop", "Gigel", 345);
-            studenti2.add(stud3);
-            studenti2.add(stud1);
-            studenti2.add(stud2);
-            studenti2.add(stud4);
-            assertEquals(studenti2, studenti);
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//    @Test
+//    public void testGetStudentsList()  {
+//        List<Student> studenti= null;
+//        try {
+//            studenti = data.getStudentsList();
+//           // System.out.println(studenti.size());
+//            List<Student> studenti2= new ArrayList<Student>();
+//            Student stud1= new Student("dfgh4563", "Costin", "Aurica", 300);
+//            Student stud2= new Student("oiuy3214", "Bala", "Dorel", 120);
+//            Student stud3= new Student("abcd1234", "Pop", "Viorica", 212);
+//            Student stud4= new Student ("fghs5679", "Pop", "Gigel", 345);
+//            studenti2.add(stud3);
+//            studenti2.add(stud1);
+//            studenti2.add(stud2);
+//            studenti2.add(stud4);
+//            assertEquals(studenti2, studenti);
+//
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 
 
     }
-}
